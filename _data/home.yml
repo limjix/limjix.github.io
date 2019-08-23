@@ -75,8 +75,8 @@ clients:
     url: "#"
 
 contact:
-  heading: Contact Us
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  heading: Let's Talk!
+  subheading: I am happy to collaborate on projects or assist with any interesting problem
   name: Your Name *
   name-required: Please enter your name.
   email: Your Email *
