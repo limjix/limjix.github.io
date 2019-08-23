@@ -1,19 +1,22 @@
 intro:
-  lead-in: "Welcome To Our Studio!"
-  heading: It's Nice To Meet You
+  lead-in: "Hello My Name is John"
+  heading: Python | Machine Learning | Hardware PLC/IOT Integrator
   btn: Tell Me More
 
 services:
-  heading: Services
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  heading: What I do
+  subheading: Primarily Python Developer with Machine Learning Experience and GUI Capabilities
   service:
     - icon: fa fa-shopping-cart
-      heading: E-Commerce
+      heading: Python
       text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    - icon: fa fa-laptop
+    - icon: GUI
       heading: Responsive Design
       text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    - icon: fa fa-lock
+    - icon: Machine Learning / AI
+      heading: Web Security
+      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - icon: Machine Learning / AI
       heading: Web Security
       text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 
