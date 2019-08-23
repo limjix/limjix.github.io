@@ -54,15 +54,7 @@ team:
   text: I have a passion to develop tools that will Help
 
 clients:
-  - img: img/logos/python.jpg
-    url: "#"
-  - img: img/logos/matlablogo.jpg
-    url: "#"
-  - img: img/logos/clogo.jpg
-    url: "#"
-  - img: img/logos/qtlogo.jpg   
-    url: "#"
-  - img: img/logos/arduinologo.jpg   
+  - img: img/logos/Row.jpg
     url: "#"
 
 contact:
