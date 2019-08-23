@@ -1,7 +1,7 @@
 intro:
-  lead-in: "Hello My Name is John"
-  heading: "I Build Software and AI Tools"
-  heading1: Test
+  lead-in: Hello My Name is John
+  heading1: I Build Software and AI Tools
+  heading2: Test
   btn: Tell Me More
 
 services:
@@ -23,8 +23,8 @@ portfolio:
   subheading: Lorem ipsum dolor sit amet consectetur.
 
 about:
-  heading: About
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  heading: My Career Thus Far
+  subheading: Seeing where God takes me
   timeline:
     - image: img/about/1.jpg
       date: 2013-2017
@@ -36,7 +36,8 @@ about:
       text: Working developing autonomous Tunnel Boring Machine Algorithms. Shortlisted for the International Tunnelling Association TECHNICAL PRODUCT/EQUIPMENT INNOVATION OF THE YEAR and New Civil Engineer's Innovation in Tunnel Excavation
 
 
-  end1: What's next??
+  end1: What's
+  end2: next??
   
 team:
   heading: About Me
