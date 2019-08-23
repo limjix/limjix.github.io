@@ -50,10 +50,10 @@ about:
   end3: Story!
 
 team:
-  heading: Our Amazing Team
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  heading: About Me
+  subheading: R&D Engineer working on a mega-infrasturcture project locally with projects shortlisted for 2 international awards.
   members:
-    - name: Kay Garland
+    - name: John Lim Ji xiong
       role: Lead Designer
       img: img/team/1.jpg
       social-buttons:
@@ -63,30 +63,8 @@ team:
           url: "#"
         - icon: fa fa-linkedin
           url: "#"
-        
-    - name: Larry Parker
-      role: Lead Marketer
-      img: img/team/2.jpg
-      social-buttons:
-        - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
-        - icon: fa fa-linkedin
-          url: "#"
 
-    - name: Diana Pertersen
-      role: Lead Developer
-      img: img/team/3.jpg
-      social-buttons:
-        - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
-        - icon: fa fa-linkedin
-          url: "#"
-
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+  text: I have a passion to develop tools that will Help
 
 clients:
   - img: img/logos/envato.jpg
