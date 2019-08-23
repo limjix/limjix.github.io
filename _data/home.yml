@@ -6,7 +6,7 @@ intro:
 
 services:
   heading: What I do
-  subheading: I develop software tools that enhance people's workflow for the better 
+  subheading: I develop software tools that enhances people's workflow
   service:
     - icon: fa fa-shopping-cart
       heading: Python/MATLAB
@@ -33,13 +33,11 @@ about:
     - image: img/about/2.jpg
       date: March 2011
       title: Gamuda R&D Engineer
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+      text: Working developing autonomous Tunnel Boring Machine Algorithms. Shortlisted for the International Tunnelling Association TECHNICAL PRODUCT/EQUIPMENT INNOVATION OF THE YEAR and New Civil Engineer's Innovation in Tunnel Excavation
 
 
-  end1: Be Part
-  end2: Of Our
-  end3: Story!
-
+  end1: What's next??
+  
 team:
   heading: About Me
   subheading: R&D Engineer working on a mega-infrasturcture project locally with projects shortlisted for 2 international awards.
