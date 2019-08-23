@@ -5,7 +5,7 @@ intro:
 
 services:
   heading: What I do
-  subheading: Primarily Python Developer with Machine Learning Experience and GUI Capabilities
+  subheading: I develop software tools that enhance people's workflow for the better 
   service:
     - icon: fa fa-shopping-cart
       heading: Python/MATLAB
