@@ -14,21 +14,15 @@ nav:
   - title: Contact
     url: '#contact'
 
-copyright: Copyright &copy; Your Website 2018
+copyright: Copyright &copy; John Lim Ji Xiong 2019
 
 social-buttons:
-  - icon: fa fa-twitter
-    url: '#' 
   - icon: fa fa-facebook
     url: '#'
   - icon: fa fa-linkedin
     url: '#'
 
 quicklinks:
-  - title: Privacy Policy
-    url: '#'
-  - title: Terms of Use
-    url: '#'
 
 modal:
   date-string: 'Date: '
