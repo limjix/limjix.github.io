@@ -1,306 +1,68 @@
-# Jekyll Theme based on Startbootstrap Agency
+# [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
 
-jekyll-theme-startbootstrap-agency is a Jekyll theme based on Start Bootstrap - Agency. You can see the [live demo](http://www.vrachas.com/jekyll-theme-startbootstrap-agency/).
-
-"Agency is a stylish, one page Bootstrap theme for agencies and small businesses. The design of Agency is based off of the Golden PSD Theme by Mathavan Jaya. You can download the PSD verison of this theme at FreebiesXpress.com."
+[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
 
 ## Preview
 
-[![Agency Preview](https://startbootstrap.com/assets/img/templates/agency.jpg)](http://www.vrachas.com/jekyll-theme-startbootstrap-agency/)
+[![Agency Preview](https://startbootstrap.com/assets/img/screenshots/themes/agency.png)](https://blackrockdigital.github.io/startbootstrap-agency/)
 
-**[View Live Preview](http://www.vrachas.com/jekyll-theme-startbootstrap-agency/)**
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
 
-## Background
+## Status
 
-The objective of this project is to provide a Jekyll theme that is line by line perfect replica of “Startbootstrap - Agency” and at the same time to be so dynamic that can be used as a starting point for   child themes.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-agency)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev)
 
-Currently the only difference between “Startbootstrap – Agency” and jekyll-theme-startbootstrap-agency as served with the default content is found in the final `css/agency.min.css` which is normal since the scss is compiled by different engines.
+## Download and Installation
 
-https://github.com/y7kim/agency-jekyll-theme has not been updated for more that a year and it is still based in Bootstrap 3
-
-
-## Features:
-- MIT License
-- Built to support the latest, stable releases of all major browsers and platforms.
-- Fully responsive HTML template created with Bootstrap 4
-- Custom collapsing navigation with active classes, smooth page scrolling, and responsive fallback stylings
-- Services section with CSS only circle icons by Font Awesome
-- Portfolio grid with modal window popup previews for portfolio item details
-- About section with a responsive timeline, special thanks to Bootsnipp
-- Team member section with circle profile images and social media links
-- Contact form with validation - just add your server url to the `js-url` at `_data/home.yml`
-- Footer with social links, copyright information, and other links
-- SCSS files included for deeper customization options
-
-
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "jekyll-theme-startbootstrap-agency"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: jekyll-theme-startbootstrap-agency
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-theme-startbootstrap-agency
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
+* Install via npm: `npm i startbootstrap-agency`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-agency)
 
 ## Usage
 
-**[Usage Example](https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency-child)**
+### Basic Usage
 
-`_config.yml`
-```
-title: [The title of your site]
-description: [A short description of your site's purpose]
-author: [The author of the website]
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-sass: # Enables the conversion of css/agency.min.scss to  css/agency.min.css
-  style: compressed # Minify css/agency.min.css
+### Advanced Usage
 
-collections: # Enables additional data structures 
-  projects: # Enables _projects
-```
-`assets/css/`
-- `agency.min.scss` Add any additional styling
+After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-`assets/_scss/`
-- `_variables.scss`
-```
-$primary: [hexcode of the primary color] !default;
-```
-- `assets/_mixins.scss` Font Configuration
-- `assets/_masthead.scss` Master Header
-```
- background-image: url('[Path to master header background image]');
-```
-- `assets/_contact.scss`
-```
- background-image: url('[Path to contact section background image]');
-```
-`_data/`
-- `default.yml` Data used by the default layout
-```
-brand:
-  name: [Top left name]
-menu-string: [Collapsed menu text]
+#### Gulp Tasks
 
-nav: # Navbar links
-  - title: [Link title]
-    url: '[Link]'
-  ...
-  - title: [Link title]
-    url: '[Link]'
+- `gulp` the default task that builds everything
+- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+- `gulp js` minifies the themes JS file
+- `gulp vendor` copies dependencies from node_modules to the vendor directory
 
-copyright: [Copyright notice]
+You must have npm installed globally in order to use this build environment.
 
-social-buttons: # Footer social buttons
-  - icon: [Font awesome icon code]
-    url: '[Link]' 
-  ...
-  - icon: [Font awesome icon code]
-    url: '[Link]'
+## Bugs and Issues
 
-quicklinks: # Footer links
-    - title: [Link title]
-    url: '[Link]'
-  ...
-  - title: [Link title]
-    url: '[Link]'
-
-modal: # Modal strings for l10n
-```
-- `home.yml` Data used by the homepage
-```
-intro: # Master header text
-
-services: # Services section 
-  heading: [Services Title]
-  subheading: [Services Subtile]
-  service: # List of services
-    - icon: [Font Awasome icon code]
-      heading: [Service Title]
-      text: [Service text]
-    ...
-    - icon: [Font Awasome icon code]
-      heading: [Service Title]
-      text: [Service text]
-
-
-portfolio: # portfolio section
-  heading: [Portfolio title]
-  subheading: [Portfolio subtitle]
-
-about: # About section
-  heading: [About title]
-  subheading: [About subtitle]
-  timeline: # List
-    - image: [Image path]
-      date: [Date]
-      title: [Title]
-      text: [Text]
-    ...
-    - image: [Image path]
-      date: [Date]
-      title: [Title]
-      text: [Text]
-
-  end1: [End bubble first line ]
-  end2: [End bubble second line ]
-  end3: [End bubble third line ]
-
-team:
-  heading: [Title] 
-  subheading: [Subtitle]
-  members: [List of members]
-    - name: [Member's name]
-      role: [Member's role]
-      img: [Member's image path]
-      social-buttons: [List of Member's Social Media profiles]
-        - icon: [Font Awasome icon code]
-          url: '[Link to Member's Social Media]' 
-        ...
-        - icon: [Font Awasome icon code]
-          url: '[Link to Member's Social Media]'
-
-    - name: [Member's name]
-      role: [Member's role]
-      img: [Member's image path]
-      social-buttons: [List of Member's Social Media profiles]
-        - icon: [Font Awasome icon code]
-          url: '[Link to Member's Social Media]' 
-        ...
-        - icon: [Font Awasome icon code]
-          url: '[Link to Member's Social Media]'
-
-  text: [Text under members list] 
-
-clients: # List of clients logos and links
-  - img: [Path to clients logo image]
-    url: '[Link to clients website]'
-  ...
-  - img: [Path to clients logo image]
-    url: '[Link to clients website]'
-
-contact: # Contact Section
-  heading: [Translateble string]
-  ... 
-  btn: [Translatable string]
-
-  js-url: '[Contact form target]'
-  js-success: '[Translatable string]'
-  js-error: '[Translatable string]' # Attention around " + firstName + "
-  js-error-min: '[Translatable string]' # Attention around "+i+"
-```
-`_layouts/`
-- `default.html` Default layout
-- `home.html` Home layout
-
-`assets/js/`
-- `contact_me.js` Contact form checker and submitter
-
-`_projects/` Directory storing project data
-- `*.md` Project data
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/SotiriosVrachas/jekyll-theme-startbootstrap-agency/issues . This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-The theme is setup just like a normal Jekyll site! To test the theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using the theme. Edit pages, documents, data, etc. like normal to test the theme's contents. As you make modifications to the theme and to the content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
 
 ## About
 
-jekyll-theme-startbootstrap-agency is an open source Jekyll theme based on [Start Bootstrap - Agency](https://github.com/BlackrockDigital/startbootstrap-agency) 
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
-```
-The MIT License (MIT)
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
-Copyright (c) 2013-2018 Blackrock Digital LLC
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-```
+## Copyright and License
 
-Start Bootstrap - Agency is based on the [Bootstrap](https://github.com/twbs/bootstrap) framework.
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2011-2018 Twitter, Inc.
-Copyright (c) 2011-2018 The Bootstrap Authors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-```
-
-## License
-
-Copyright 2018 Sotirios Vrachas. The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2018 Sotirios Vrachas
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-```
+Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
