@@ -57,8 +57,6 @@ team:
       role: Lead Designer
       img: img/team/1.jpg
       social-buttons:
-        - icon: fa fa-twitter
-          url: "#" 
         - icon: fa fa-facebook
           url: "#"
         - icon: fa fa-linkedin
