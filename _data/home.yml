@@ -1,6 +1,8 @@
 intro:
   lead-in: "Hello My Name is John"
-  heading: Python | Machine Learning | Hardware PLC/IOT Integrator
+  heading: "Python" + 
+            "Machine Learning" +
+                "PLC/IOT Integrator"
   btn: Tell Me More
 
 services:
