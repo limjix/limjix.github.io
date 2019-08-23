@@ -1,7 +1,6 @@
 intro:
   lead-in: Hello My Name is John
-  heading1: I Build Software and AI Tools
-  heading2: Test
+  heading: I Build Software and AI Tools
   btn: Tell Me More
 
 services:
@@ -44,13 +43,13 @@ team:
   subheading: R&D Engineer working on a mega-infrasturcture project locally with projects shortlisted for 2 international awards.
   members:
     - name: John Lim Ji xiong
-      role: Lead Designer
+      role: R&D Engineer
       img: img/team/1.jpg
       social-buttons:
         - icon: fa fa-facebook
-          url: "#"
+          url: "https://www.facebook.com/limjix"
         - icon: fa fa-linkedin
-          url: "#"
+          url: "https://www.linkedin.com/in/johnlimjixiong/"
 
   text: I have a passion to develop tools that will Help
 
